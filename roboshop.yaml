@@ -1,5 +1,5 @@
 - name: roboshop instances management
-  hosts: local
+  hosts: localhost
   connection: local
   vars:
     instances: ["mongodb", "redis", "frontend"]
